@@ -5,7 +5,7 @@ let angleOfIncidence = 0;
     let reflectionCount = 90; // Current reflection count
 
     function setup() {
-        createCanvas(200, 200);
+        createCanvas(800, 800);
         // background(90s0); // Set the background color to a light gray (RGB value: 220)
       }
     function draw() {
