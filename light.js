@@ -5,14 +5,14 @@ let angleOfIncidence = 0;
     let reflectionCount = 90; // Current reflection count
 
     function setup() {
-      createCanvas(900, 900);
-    }
-
+        createCanvas(900, 900);
+        // background(90s0); // Set the background color to a light gray (RGB value: 220)
+      }
     function draw() {
-      background(220);
+      background(0);
 
       // Draw the reflecting surface (mirror)
-      stroke(0,0, 0);
+      stroke(225 ,225 ,225);
       line(0, height / 2, width, height / 2);
 
       strokeWeight(2);
@@ -116,4 +116,4 @@ let angleOfIncidence = 0;
 }
 
     document.getElementById('angleInput').addEventListener('input', updateAngle);
-  
+
