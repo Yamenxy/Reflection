@@ -1,37 +1,32 @@
-    html, body {
-      margin: 0;
-      padding: 0;
-      /* overflow: hidden; Prevent scrollbars */
-      display: flex;
-      justify-content: center;
-      background-image: url("pexels-ready-made-3964574.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    .container {
-      text-align: center;
-      /* background-color: rgba(255, 255, 255, 0.8); */
-      padding: 200px;
-      border-radius: 10px;
-    }
-
-    .input-label {
-      font-size: 40px;
-      font-weight:bolder;
-      margin-bottom: 1000px;
-    }
-
-    .input-field {
-      padding: 5px;
-      font-size: 18px;
-      width: 200px;
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      outline: none;
-    }
-
-    /* canvas {
-      border: 100px solid #741a1a;
-      margin-top: 20px;
-    } */
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-image: url("pexels-ready-made-3964574.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 200px;
+    border-radius: 10px;
+    margin-top: calc(50vh - 250px); /* Adjust the value as needed */
+  }
+  
+  .input-label {
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px; /* Adjust the value as needed */
+  }
+  
+  .input-field {
+    padding: 5px;
+    font-size: 18px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+  }
