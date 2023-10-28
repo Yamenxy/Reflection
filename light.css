@@ -16,6 +16,22 @@ html, body {
     margin-top: calc(50vh - 250px); /* Adjust the value as needed */
   }
   
+  #okButton {
+   margin-left: 78px;
+    background-color: #4CAF50; /* Set the background color */
+    color: white; /* Set the text color */
+    padding: 10px 20px; /* Set padding */
+    font-size: 16px; /* Set font size */
+    border: none; /* Remove border */
+    cursor: pointer; /* Add cursor pointer on hover */
+    border-radius: 50px;
+
+  }
+  
+  #okButton:hover {
+    background-color: #45a049; /* Change background color on hover */
+  }
+
   .input-label {
     font-size: 40px;
     font-weight: bolder;
